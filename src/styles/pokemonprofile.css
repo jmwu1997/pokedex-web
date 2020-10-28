@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300,700");
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+img {
+  max-height: 150px;
+  margin: auto;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.cardd {
+  display: inline-block;
+  min-width: 400px;
+  padding: 1em;
+  border-radius: 15px;
+  margin: 10px;
+  background: #ddd;
+  text-align: center;
+  box-shadow: 0px 5px 20px -10px #111111;
+  position: relative;
+  transition: 0.4s;
+  
+  
+
+}
+
+.card__image{
+  width: 40%;
+}
+
+table{
+  margin: 0 auto;
+  text-align: left;
+}
+
+
