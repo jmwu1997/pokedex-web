@@ -1,0 +1,32 @@
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 10%;
+	height: 10%;
+	min-width: 150px;
+	min-height: 150px;
+	float: left;
+	margin: 15px 15px 15px 15px;
+}
+	  
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card_body{
+	background-color: rgba(0,0,0,0.1);
+}
+
+.card_img{
+	width:100%;
+}
+
+.card_content{
+	font-size: medium;
+	text-align: center;
+	color: black;
+}
+
+li{
+	list-style-type: none;	
+}
